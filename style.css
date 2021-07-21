@@ -1,0 +1,10 @@
+body{
+    text-align: center;
+    background-image: linear-gradient(to left, #00f7ff, #ff0000);
+}
+
+button{
+    background-color: blue;
+    color: white;
+    display: inline-block;
+}

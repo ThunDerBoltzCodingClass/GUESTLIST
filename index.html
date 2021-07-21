@@ -1,0 +1,36 @@
+<html>
+<head> <title>GUEST LIST</title> 
+<script src="main.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>**Press "Show" Button after all guests have came**</p>
+<h1>Guest List</h1>
+<span>
+<input type="text" id="nameInput">
+<button type="button" id="submit" onclick="submit()">Submit</button>
+</span>
+<div id="display_name"></div>
+<br>
+<br>
+<br>
+<br>
+<div id="unsorted_name">
+    <h4> List of People </h4>
+    <button type="button" id="show" onclick="show()">Show</button>
+</div>
+<div id="sorted_name">
+    <button type="button" id="sort" onclick="sort()">The Sorted List</button>
+</div>
+<br>
+<br>
+<br>
+<br>
+<span>
+    <input type="text" placeholder="Enter Name HERE">
+    <button onclick="search()">Search</button>
+    <p id="p"></p>
+</span>
+
+</body>
+</html>
